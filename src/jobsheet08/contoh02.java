@@ -5,7 +5,6 @@
  */
 package jobsheet08;
 
-
 public class contoh02 {
     public static void main (String[]args){
         int x;
@@ -17,9 +16,16 @@ public class contoh02 {
         x = 1;
         while( x <= 10)
         {
-            System.out.print("Ardhi Zakhirul Qolby"); 
+            System.out.println(x + " Ardhi Zakhirul Qolby"); 
             x++;
         }
+        x = 1;
+        do 
+        {
+            System.out.println( x + " Ardhi zakhirul Q.");
+            x++;
+        }
+         while(x <= 10);
     }
     
 }
